@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/public/css/style.css">
     <link rel="stylesheet" href="/public/fonts/fontawesome-free-6.2.1-web/fontawesome-free-6.2.1-web/css/all.min.css">
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
 
     <title>Manager Product</title>
 </head>
@@ -112,9 +113,9 @@
                                     </td>
 
                                     <td>
-                                        <button><a href="/admin/updatestatus?id=<%= invo.id%>&type=accept">Accept
+                                        <button><a href="/admin/updatestatus?id=<%= invo.id%>&type=accept" class="!text-black bg-green-600 rounded-xl hover:bg-green-400 hover:!text-white">Accept
                                                 orders</a></button>
-                                        <button><a href="/admin/updatestatus?id=<%= invo.id%>&type=cancel">Cancel
+                                        <button><a href="/admin/updatestatus?id=<%= invo.id%>&type=cancel"class="!text-black bg-rose-700 rounded-xl hover:bg-rose-900 hover:!text-white">Cancel
                                                 orders</a></button>
                                     </td>
 

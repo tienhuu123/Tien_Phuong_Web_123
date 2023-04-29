@@ -589,7 +589,7 @@ button {
 }
 
 td button:nth-child(1) {
-    background-color: rgb(26, 168, 111);
+  
 }
 td button a:nth-child(1) {
   color: rgb(28, 21, 3);
@@ -597,7 +597,7 @@ td button a:nth-child(1) {
 
 
 td button:nth-child(2) {
-      background-color:rgb(26, 168, 111);
+     
 }
 td button a:hover {
   color: white;
