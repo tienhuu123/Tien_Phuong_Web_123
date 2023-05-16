@@ -19,13 +19,13 @@ let home = async (req, res, next) => {
                 }
                 break;
             case '2':
-                if (count > 0) { query2 += ` and price >= 500 and price <= 1000` } else {
-                    query2 += ` where price >= 500 and price <=1000 `
+                if (count > 0) { query2 += ` and price >= 500 and price <= 1500` } else {
+                    query2 += ` where price >= 500 and price <=1500 `
                 }
                 break;
-            case '2':
-                if (count > 0) { query2 += ` and price >= 1000 and price <= 1500` } else {
-                    query2 += ` where price >= 1000 and price <=1500 `
+            case '3':
+                if (count > 0) { query2 += ` and price >= 1500 and price <= 2000` } else {
+                    query2 += ` where price >= 1500 and price <=2000 `
                 }
                 break;
             default:
